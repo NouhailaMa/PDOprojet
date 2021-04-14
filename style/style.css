@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+.header {
+    border-bottom: 2px solid #801f1fd2;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    margin-left: 12px !important;
+    font-family: 'Cinzel', serif;
+    font-size: 20px !important;   
+}
+.content{
+    margin-left: 20%;
+}
+.header-container {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.header-container > h2 {
+
+}
+.bg-light {
+    background: #801f1fd2 !important;
+    -webkit-box-shadow: 5px 9px 43px 1px rgba(0,0,0,0.18); 
+    box-shadow: 5px 9px 43px 1px rgba(0,0,0,0.18);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.bg-light > a {
+    color: #fff !important;
+}
+img {
+    height: 400px;
+    vertical-align: middle;
+    border-style: none;
+}
+body {
+    background : #f7f7f7;
+}
+.card {
+    border : none !important;
+    border-bottom: 3px solid#801f1fd2 !important;
+}
+input[type=text] {
+    box-shadow: 0px 1px 1px #ddd !important;
+    autocomplete: off;
+}
+input[type=text]:focus{;
+    border: none !important;
+    box-shadow: 0px 4px 5px #ccc !important;
+}
+select{
+    box-shadow: 0px 1px 1px #ddd !important;
+    autocomplete: off;
+}
+select:focus{;
+    border: none !important;
+    box-shadow: 0px 4px 5px #ccc !important;
+}
+.thead-light {
+
+}
+.table .thead-light th {
+    color : #fff !important;
+    background: #801f1fd2 !important;
+    border: none !important;
+}
+footer {
+    height: 10px;
+    width: 100%;
+    margin-top: 60px;
+    background:#801f1fd2;
+}
+.form{
+    background-color: white;
+    border: 2px solid #801f1fd2;
+    padding: 15px;
+    box-shadow: 5px 9px 43px 1px rgba(0,0,0,0.18);
+}
+.icon{
+    font-size: 20px;
+    margin-right: 7%;
+    margin-left: 15%;
+}
+

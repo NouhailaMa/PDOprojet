@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+.wrapper{
+    display: flex;
+    position: relative;
+}
+
+.wrapper .sidebar{
+    width: 230px;
+    height: 100%;
+    background: #801f1fd2;
+    padding: 30px 0px;
+    position: fixed;
+}
+
+.wrapper .sidebar h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.wrapper .sidebar ul li{
+    color: #c4ced3;
+    font-weight: 700;
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(255,255,255,0.05);
+}    
+
+.wrapper .sidebar ul li a{
+    text-decoration: none;
+    color: #c4ced3;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 30px;
+  font-size: 15px;
+}
+
+.wrapper .sidebar ul li:hover{
+    background-color: rgba(0,0,0,0.05);
+    text-decoration: none;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar-footer {
+    padding-bottom: 5px;
+    background-color: rgba(0,0,0,0.05);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex; 
+    border: 1px solid rgba(0,0,0,0.05);
+    border-style: ridge;
+    font-weight: 700;
+}
+.sidebar-footer>a {
+    text-decoration: none;
+    padding:1px;
+    font-size: 15px;
+    flex-grow: 1;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    color: #c4ced3;
+}
+.sidebar-footer .fa{
+    width: 30px;
+    font-size: 17px;  
+}
+.sidebar-footer :hover {
+    background-color: rgba(0,0,0,0.05);
+    color: white;
+    text-decoration: none;
+}
+#myChart{
+    width: 900px !important;
+    height: 500px !important;
+    margin-left: 5%;
+    margin-top: 1%;
+}
